@@ -1,3 +1,5 @@
+package study.t1;
+
 public class p1 {
     public static void main(String[] args) {
         String msg = "Spring is beginning";

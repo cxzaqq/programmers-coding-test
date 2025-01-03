@@ -1,3 +1,5 @@
+package study.t1;
+
 public class p5 {
     public static void main(String[] args) {
         String inputStr = "NSSNEWWN";

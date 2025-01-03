@@ -1,3 +1,5 @@
+package study.t1;
+
 public class p8 {
     public static void main(String[] args) {
         String[] storage = {"apple", "steel", "leaf", "apple", "leaf"};

@@ -1,3 +1,5 @@
+package study.t1;
+
 public class p9 {
     public static void main(String[] args) {
         String[][] board = {{"yellow", "green", "blue"}, {"blue", "green", "yellow"}, {"yellow", "blue", "blue"}};

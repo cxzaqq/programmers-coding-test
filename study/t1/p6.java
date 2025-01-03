@@ -1,3 +1,5 @@
+package study.t1;
+
 public class p6 {
     public static void main(String[] args) {
         int[] numbers = {3, 4};

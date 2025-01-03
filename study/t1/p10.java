@@ -1,3 +1,5 @@
+package study.t1;
+
 import java.util.Arrays;
 import java.util.List;
 
