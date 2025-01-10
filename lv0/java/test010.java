@@ -16,7 +16,7 @@ public class test010 {
         else return 0;
     }
 
-    public static int solution1(String myString, String pat) {
+    public static int solution2(String myString, String pat) {
         int answer = 0;
         if(myString.toLowerCase().contains(pat.toLowerCase())) answer = 1;
         return answer;
