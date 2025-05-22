@@ -1,4 +1,4 @@
-// 문자열이 몇 번 등장하는지 세기기
+// 문자열이 몇 번 등장하는지 세기
 public class test003 {
     public static void main(String[] args) {
         String myString = "Banana";
