@@ -3,11 +3,11 @@ import java.util.Arrays;
 import java.util.List;
 
 // ad 제거하기
-public class test002 {
+public class test142 {
     
     public static void main(String[] args) {
         String[] inputStrArr = {"and", "notad", "abcd"};
-        String[] result = test002.solution(inputStrArr);
+        String[] result = test142.solution(inputStrArr);
 
         for(String str: result) {
             System.out.println(str);

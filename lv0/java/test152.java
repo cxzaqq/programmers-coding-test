@@ -2,11 +2,11 @@
 
 import java.util.Arrays;
 
-public class test012 {
+public class test152 {
     public static void main(String[] args) {
         int[] num_list = {12, 4, 15, 1, 14};
 
-        int result = test012.solution(num_list);
+        int result = test152.solution(num_list);
         System.out.println(result);
 
     }

@@ -1,10 +1,10 @@
 // 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기
-public class test004 {
+public class test144 {
     public static void main(String[] args) {
         String myString = "AbcdEFG";
         String pat = "dE";
 
-        String result = test004.solution(myString, pat);
+        String result = test144.solution(myString, pat);
         System.out.println(result);
     }
 

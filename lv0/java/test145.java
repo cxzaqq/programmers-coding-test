@@ -1,10 +1,10 @@
 // 특정한 문자를 대문자로 바꾸기
-public class test005 {
+public class test145 {
     public static void main(String[] args) {
         String my_string = "programmers";
         String alp = "p";
 
-        String result = test005.solution(my_string, alp);
+        String result = test145.solution(my_string, alp);
         System.out.println(result);
     }
 

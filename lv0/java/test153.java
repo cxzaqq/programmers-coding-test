@@ -2,11 +2,11 @@
 
 import java.util.Arrays;
 
-public class test013 {
+public class test153 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 100, 99, 98};
 
-        int result = test013.solution(arr);
+        int result = test153.solution(arr);
         System.out.println(result);
     }
 

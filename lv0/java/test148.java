@@ -1,9 +1,9 @@
 // 소문자로 바꾸기
-public class test008 {
+public class test148 {
     public static void main(String[] args) {
         String myString = "aBcDeFg"	;
 
-        String result = test008.solution(myString);
+        String result = test148.solution(myString);
         System.out.println(result);
     }
 

@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
 // 배열에서 문자열 대소문자 변환하기기
-public class test007 {
+public class test147 {
     public static void main(String[] args) {
         String[] strArr = {"AAA","BBB","CCC","DDD"};	;
-        String[] result = test007.solution(strArr);
+        String[] result = test147.solution(strArr);
 
         System.out.println(Arrays.toString(result));
     }

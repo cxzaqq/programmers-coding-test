@@ -1,10 +1,10 @@
 // 원하는 문자열 찾기
-public class test010 {
+public class test150 {
     public static void main(String[] args) {
         String myString = "AbCdEfG";
         String pat = "aBc";
 
-        int result = test010.solution(myString, pat);
+        int result = test150.solution(myString, pat);
         System.out.println(result);
     }
 

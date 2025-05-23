@@ -1,9 +1,9 @@
 // 길이에 따른 연산
-public class test011 {
+public class test151 {
     public static void main(String[] args) {
         int[] num_list = {3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1};
 
-        int result = test011.solution(num_list);
+        int result = test151.solution(num_list);
         System.out.println(result);
     }
 

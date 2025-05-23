@@ -1,10 +1,10 @@
 // 문자열이 몇 번 등장하는지 세기
-public class test003 {
+public class test143 {
     public static void main(String[] args) {
         String myString = "Banana";
         String pat = "ana";
 
-        int result = test003.solution(myString, pat);
+        int result = test143.solution(myString, pat);
 
         System.out.println(result);
     }
