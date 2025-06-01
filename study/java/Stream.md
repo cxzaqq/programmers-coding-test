@@ -29,7 +29,8 @@ Arrays.stream(arr)                      // 스트림 생성
 |1. 생성|배열, 리스트 등에서 스트림을 생성|`Arrays.stream(arr)`|
 |2. 중간 연산|데이터를 가공, 필터링 (결과는 다시 Stream)|`.filter()`, `.map()`, `.sorted()` 등|
 |3. 최종 연산|결과 도출 (스트림 소비)|`.collect()`, `.forEach()`, `.sum()` 등|
-<br><br>
+
+<br>
 
 * Stream은 데이터 처리 흐름 방식이다
 * 원본 데이터를 변경하지 않는다
