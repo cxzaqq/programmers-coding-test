@@ -4,30 +4,47 @@ package lv1.java;
 
 public class test017 {
     public static void main(String[] args) {
-        int result1 = solution(123);
-        int result2 = solution(978);
-
-        System.out.println(result1 == 6 && result2 == 24 ? "pass" : "fail");
+        String result = solution("try hello world");
+        System.out.println(result.equals("TrY HeLlO WoRlD") ? "pass" : "fail");
     }
 
-    public static int solution(int n) {
-        int sum = 0;
-        int len = Integer.toString(n).length();
-        for (int i = 1; i <= len; i++) {
-            sum += n % 10;
-            n /= 10;
+    public static String solution(String s) {
+        int idx = 0;
+        char[] arr = s.toCharArray();
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == ' ') {
+                idx = 0;
+                continue;
+            }
+
+            if (idx % 2 == 0) {
+                arr[i] = Character.toUpperCase(arr[i]);
+            } else {
+                arr[i] = Character.toLowerCase(arr[i]);
+            }
+
+            idx++;
         }
 
-        return sum;
+        return new String(arr);
     }
 
-    public static int solution2(int n) {
-        int sum = 0;
-        while (n > 0) {
-            sum += n % 10;
-            n /= 10;
+    public static String solution2(String s) {
+        StringBuilder sb = new StringBuilder();
+        int idx = 0;
+
+        for (char c : s.toCharArray()) {
+            if (c == ' ') {
+                sb.append(' ');
+                idx = 0;
+            } else {
+                sb.append(idx % 2 == 0
+                        ? Character.toUpperCase(c)
+                        : Character.toLowerCase(c));
+                idx++;
+            }
         }
 
-        return sum;
+        return sb.toString();
     }
 }
